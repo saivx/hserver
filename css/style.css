@@ -1,0 +1,56 @@
+.bottom-border {
+  background-color: transparent;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: solid 2px;
+  border-color: #f2f2f2;
+}
+
+.top-border {
+  background-color: transparent;
+  border-left: none;
+  border-top: solid 1px;
+  border-right: none;
+  border-bottom: none;
+  border-color: #f5f5f5;
+}
+
+#logo{display:block;
+position:absolute;
+left:10px;
+top:10px;
+background-color:transparent ;
+background:transparent url() left top no-repeat;
+white-space:nowrap;
+overflow:hidden
+}
+
+.next-section-1 .next-section-2{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 0px
+}
+.next-section-1{ background-color: #e7e7e7}
+.next-section-2{ background-color: #ffffff}
+
+.line-space-15{ line-height:2em }
+
+/* For Google maps embedded */
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
